@@ -93,6 +93,15 @@ class Rectangle:
                 rect.append("\n")
         return ("".join(rect))
 
+    @classmethod
+    def square(cls, size=0):
+        """the square of the rectangle
+
+        Args:
+            size (int): width and height of the Rectangle.
+        """
+        return (cls(size, size))
+
     def __repr__(self):
         """Return the string representation of the Rectangle."""
         rect = "Rectangle(" + str(self.__width)
