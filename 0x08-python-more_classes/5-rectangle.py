@@ -71,3 +71,7 @@ class Rectangle:
         rect = "Rectangle(" + str(self.__width)
         rect += ", " + str(self.__height) + ")"
         return (rect)
+
+     def __del__(self):
+        """Print message for every delete"""
+        print("Bye rectangle...")
