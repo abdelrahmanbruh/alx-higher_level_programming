@@ -1,14 +1,10 @@
 #!/usr/bin/python3
-"""
-TODO: make a mylist function
-"""
+"""My list"""
 
 
 class MyList(list):
-    """class for my list"""
-    pass
+    """my list"""
 
     def print_sorted(self):
-        """method to print the sorted list"""
-
-        print(sorted(list(self)))
+        """prints the sorted list"""
+        print(sorted(self))
